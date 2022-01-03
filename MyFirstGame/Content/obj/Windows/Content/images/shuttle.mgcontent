@@ -2,8 +2,8 @@
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/images/shuttle.png</SourceFile>
   <SourceTime>2022-01-03T15:11:30.3250613-05:00</SourceTime>
-  <DestFile>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/bin/Windows/images/shuttle.xnb</DestFile>
-  <DestTime>2022-01-03T15:30:55.0889503-05:00</DestTime>
+  <DestFile>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/bin/Windows/Content/images/shuttle.xnb</DestFile>
+  <DestTime>2022-01-03T15:26:35.4381237-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T12:17:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

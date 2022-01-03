@@ -35,3 +35,7 @@ C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\obj\Debug\netcoreapp3.
 C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\obj\Debug\netcoreapp3.1\MyFirstGame.dll
 C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\obj\Debug\netcoreapp3.1\MyFirstGame.pdb
 C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\obj\Debug\netcoreapp3.1\MyFirstGame.genruntimeconfig.cache
+C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\bin\Debug\netcoreapp3.1\Content\backgrounds\stars.xnb
+C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\bin\Debug\netcoreapp3.1\Content\images\shuttle.xnb
+C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\bin\Debug\netcoreapp3.1\Content\images\stars.xnb
+C:\Users\jcehe\RiderProjects\LearningMonogame\MyFirstGame\bin\Debug\netcoreapp3.1\Content\images\earth.xnb

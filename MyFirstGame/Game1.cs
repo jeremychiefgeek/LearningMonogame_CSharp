@@ -8,6 +8,11 @@ namespace MyFirstGame
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        
+        // Textures
+        private Texture2D _background;
+        private Texture2D _shuttle;
+        private Texture2D _earth;
 
         public Game1()
         {
@@ -27,7 +32,10 @@ namespace MyFirstGame
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            // use this.Content to load your game content here
+            _background = Content.Load<Texture2D>("backgrounds/stars");
+            _shuttle = Content.Load<Texture2D>("images/shuttle");
+            _earth = Content.Load<Texture2D>("images/earth");
         }
 
         protected override void Update(GameTime gameTime)
@@ -46,6 +54,11 @@ namespace MyFirstGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            _spriteBatch.Begin();
+            _spriteBatch.Draw(_background, new Rectangle(0,0,800, 480), Color.White);
+            _spriteBatch.Draw(_earth, new Vector2(400, 240), Color.White);
+            _spriteBatch.Draw(_shuttle, new Vector2(450, 240), Color.White);
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }
