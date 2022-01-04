@@ -5,12 +5,14 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/backgrounds/stars.jpg</File>
+    <File>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/fonts/File.spritefont</File>
     <File>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/images/earth.png</File>
     <File>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/images/shuttle.png</File>
     <File>C:/Users/jcehe/RiderProjects/LearningMonogame/MyFirstGame/Content/images/stars.jpg</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
+    <File>fonts/Score.spritefont</File>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

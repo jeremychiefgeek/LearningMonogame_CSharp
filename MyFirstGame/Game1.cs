@@ -13,6 +13,10 @@ namespace MyFirstGame
         private Texture2D _background;
         private Texture2D _shuttle;
         private Texture2D _earth;
+        private SpriteFont _font;
+        
+        // Processing Variables
+        private int score = 0;
 
         public Game1()
         {
@@ -36,6 +40,7 @@ namespace MyFirstGame
             _background = Content.Load<Texture2D>("backgrounds/stars");
             _shuttle = Content.Load<Texture2D>("images/shuttle");
             _earth = Content.Load<Texture2D>("images/earth");
+            _font = Content.Load<SpriteFont>("fonts/Score");
         }
 
         protected override void Update(GameTime gameTime)
@@ -55,7 +60,8 @@ namespace MyFirstGame
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_background, new Rectangle(0,0,800, 480), Color.White);
+            _spriteBatch.DrawString(_font, $"Score: {score}", new Vector2(100, 100), Color.Black);
+            //_spriteBatch.Draw(_background, new Rectangle(0,0,800, 480), Color.White);
             _spriteBatch.Draw(_earth, new Vector2(400, 240), Color.White);
             _spriteBatch.Draw(_shuttle, new Vector2(450, 240), Color.White);
             _spriteBatch.End();
